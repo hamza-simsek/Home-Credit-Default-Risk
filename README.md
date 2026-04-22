@@ -11,7 +11,7 @@ Analiz aşamasında kullanılan veri seti Kaggle üzerinden temin edilmiştir:
 ### 1. Veri Analizi ve İş Zekası (Power BI)
 Veri setindeki demografik ve finansal değişkenlerin risk üzerindeki etkilerini incelemek için interaktif bir dashboard hazırlanmıştır.
 - **Temel Bulgular:** Yaş ile temerrüt oranı arasındaki ters orantı ve gelir segmentlerinin risk üzerindeki etkisi analiz edilmiştir.
-- **Dosya:** `reports/[Power_BI_Dosya_Adın].pbix`
+- **Dosya:** `reports/Home-Credit.pbix`
 
 ### 2. Makine Öğrenmesi Modellemesi (Python & Colab)
 Kredi riskini tahmin etmek için Python kütüphaneleri kullanılarak uçtan uca bir pipeline oluşturulmuştur.
