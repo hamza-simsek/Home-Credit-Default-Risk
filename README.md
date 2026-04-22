@@ -17,7 +17,7 @@ Veri setindeki demografik ve finansal değişkenlerin risk üzerindeki etkilerin
 Kredi riskini tahmin etmek için Python kütüphaneleri kullanılarak uçtan uca bir pipeline oluşturulmuştur.
 - **Kütüphaneler:** Pandas, NumPy, Scikit-learn, LightGBM/XGBoost, Matplotlib, Seaborn.
 - **Süreç:** Eksik veri yönetimi, aykırı değer analizi, label/one-hot encoding ve model hiperparametre optimizasyonu.
-- **Dosya:** `notebooks/[Colab_Notebook_Adın].ipynb`
+- **Dosya:** `notebooks/Home-Credit-Modeling.ipynb`
 
 ## 📈 Öne Çıkan Analizler
 Aşağıdaki görselde, yaş gruplarına göre temerrüt oranlarının değişimi görülmektedir. Analizlerimize göre genç yaş grubunda risk oranının daha yüksek olduğu tespit edilmiştir.
