@@ -1,35 +1,34 @@
 # Home Credit Default Risk Prediction 🏦
 
-Bu proje, **Home Credit** tarafından sağlanan veriler kullanılarak, kredi başvurusunda bulunan müşterilerin temerrüt (borç ödeyememe) riskini tahmin etmek amacıyla geliştirilmiştir. Proje; veri temizleme, özellik mühendisliği (feature engineering), makine öğrenmesi modellemesi ve interaktif raporlama süreçlerini kapsamaktadır.
+This project was developed to predict the default risk (repayment failure) of loan applicants using data provided by **Home Credit**. The project covers the entire data science pipeline, including data cleaning, feature engineering, machine learning modeling, and interactive reporting.
 
-## 📂 Veri Seti
-Analiz aşamasında kullanılan veri seti Kaggle üzerinden temin edilmiştir:
+## 📂 Dataset
+The dataset used in the analysis was obtained from Kaggle:
 🔗 [Home Credit Default Risk - Kaggle](https://www.kaggle.com/c/home-credit-default-risk/data)
 
-## 📊 Proje Bileşenleri
+## 📊 Project Components
 
-### 1. Veri Analizi ve İş Zekası (Power BI)
-Veri setindeki demografik ve finansal değişkenlerin risk üzerindeki etkilerini incelemek için interaktif bir dashboard hazırlanmıştır.
-- **Temel Bulgular:** Yaş ile temerrüt oranı arasındaki ters orantı ve gelir segmentlerinin risk üzerindeki etkisi analiz edilmiştir.
-- **Dosya:** `reports/Home-Credit.pbix`
+### 1. Data Analysis & Business Intelligence (Power BI)
+An interactive dashboard was designed to examine the impact of demographic and financial variables on credit risk.
+- **Key Insights:** Analysis of the inverse correlation between age and default rates, and the impact of various income segments on risk.
+- **File:** `reports/Home-Credit.pbix`
 
-### 2. Makine Öğrenmesi Modellemesi (Python & Colab)
-Kredi riskini tahmin etmek için Python kütüphaneleri kullanılarak uçtan uca bir pipeline oluşturulmuştur.
-- **Kütüphaneler:** Pandas, NumPy, Scikit-learn, LightGBM/XGBoost, Matplotlib, Seaborn.
-- **Süreç:** Eksik veri yönetimi, aykırı değer analizi, label/one-hot encoding ve model hiperparametre optimizasyonu.
-- **Dosya:** `notebooks/Home-Credit-Modeling.ipynb`
+### 2. Machine Learning Modeling (Python & Colab)
+An end-to-end pipeline was built using Python libraries to forecast credit default risks.
+- **Libraries:** Pandas, NumPy, Scikit-learn, LightGBM/XGBoost, Matplotlib, Seaborn.
+- **Process:** Missing value management, outlier analysis, label/one-hot encoding, and model hyperparameter optimization.
+- **File:** `notebooks/Home-Credit-Modeling.ipynb`
 
-## 📈 Öne Çıkan Analizler
-Aşağıdaki görselde, yaş gruplarına göre temerrüt oranlarının değişimi görülmektedir. Analizlerimize göre genç yaş grubunda risk oranının daha yüksek olduğu tespit edilmiştir.
+## 📈 Key Analysis & Insights
+The visualization below illustrates the change in default rates across different age groups. Our analysis reveals that younger age groups tend to have a significantly higher risk of default.
 
 ![Default Risk Analysis](visuals/visual2.png) 
-*(Not: Görselin görünmesi için visuals klasörüne yüklediğin dosya adıyla eşleşmelidir)*
 
-## 🛠️ Kurulum ve Çalıştırma
-Projeyi yerelinizde çalıştırmak için:
-1. Depoyu klonlayın: `git clone https://github.com/[hamza-simsek]/[Home-Credit-Default-Risk].git`
-2. Gereksinimleri yükleyin: `pip install -r requirements.txt`
-3. Notebook dosyasını Jupyter veya Google Colab üzerinden açın.
+## 🛠️ Installation & Usage
+To run this project locally:
+1. Clone the repository: `git clone https://github.com/hamza-simsek/Home-Credit-Default-Risk.git`
+2. Install requirements: `pip install -r requirements.txt`
+3. Open the notebook file via Jupyter Notebook or Google Colab.
 
-## 📄 Lisans
-Bu proje [MIT License](LICENSE) altında lisanslanmıştır.
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
