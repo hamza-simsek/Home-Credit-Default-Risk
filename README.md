@@ -27,7 +27,7 @@ Aşağıdaki görselde, yaş gruplarına göre temerrüt oranlarının değişim
 
 ## 🛠️ Kurulum ve Çalıştırma
 Projeyi yerelinizde çalıştırmak için:
-1. Depoyu klonlayın: `git clone https://github.com/[kullanici-adin]/[repo-adin].git`
+1. Depoyu klonlayın: `git clone https://github.com/[hamza-simsek]/[Home-Credit-Default-Risk].git`
 2. Gereksinimleri yükleyin: `pip install -r requirements.txt`
 3. Notebook dosyasını Jupyter veya Google Colab üzerinden açın.
 
